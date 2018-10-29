@@ -1,0 +1,120 @@
+
+.Login {
+  //font-family: 'Playfair Display', serif;
+  //font-family: 'Montserrat', sans-serif;
+  //font-family: 'Righteous', cursive;
+  //font-family: 'Signika', sans-serif;
+  //font-family: 'Hammersmith One', sans-serif;
+  font-family: 'Cabin', sans-serif;
+  height: calc(100vh - (90px + 10vh));
+  //background: linear-gradient(124deg, #ff2400, #e81d1d, #e8b71d, #e3e81d, #1de840, #1ddde8, #2b1de8, #dd00f3, #dd00f3);
+  //background: linear-gradient(#ffffff, #e3e81d, #1de840, #1ddde8, #dd00f3 );
+
+
+  h4 {
+    font-size: 20px;
+    padding: 10vh 0 5vh 0;
+    font-weight: 200;
+  }
+  h3{
+    padding-bottom: 20px;
+    font-size: 30px;
+    //font-family: 'Cabin Sketch', cursive;
+    font-family: 'Cabin', sans-serif;
+    color:#8b9440 ;
+  }
+
+  a {
+    color: #5d632a;
+    border-bottom: 0.5px solid #5d632a;
+  }
+  form {
+    width: 35%;
+    display: block;
+    margin: auto;
+    //background: rgba(62, 146, 161, 0.4);
+   //background: linear-gradient(#f4ffff, #bbc68d, #167592);
+    background: #d2e062;
+    padding: 30px;
+    border-radius: 5px;
+    font-family: 'Cabin', sans-serif;
+  }
+  .registration{
+    margin-top: 10vh;
+  }
+
+  input {
+    font-family: 'Cabin', sans-serif;
+    //background: rgba(256,256,256, 0.8);
+    display: block;
+    margin: 20px auto 0 auto;
+    width: 70%;
+    box-sizing: border-box;
+    font-size: 16px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: 600;
+    &::placeholder {
+      font-weight: 400;
+    }
+  }
+  //input[name=email]{
+  //  background: rgba(255, 251, 188, 0.8);
+  //}
+  //input[type=password]{
+  //  background: rgba(255, 170, 194, 0.8);
+  //}
+
+  button {
+    font-family: 'Cabin', sans-serif;
+    width: 70%;
+    margin-top: 20px;
+    line-height: 30px;
+    font-size: 20px;
+    color: #fff;
+    background: #8b9440;
+    border-radius: 5px;
+    outline: none;
+  }
+}
+
+
+
+//  height: 100%;
+//  width: 100%;
+//  left:0;
+//  right: 0;
+//  top: 0;
+//  bottom: 0;
+//  position: absolute;
+//  background: linear-gradient(124deg, #ff2400, #e81d1d, #e8b71d, #e3e81d, #1de840, #1ddde8, #2b1de8, #dd00f3, #dd00f3);
+//  background-size: 1800% 1800%;
+//
+//  -webkit-animation: rainbow 18s ease infinite;
+//  -z-animation: rainbow 18s ease infinite;
+//  -o-animation: rainbow 18s ease infinite;
+//  animation: rainbow 18s ease infinite;}
+//
+//@-webkit-keyframes rainbow {
+//  0%{background-position:0% 82%}
+//  50%{background-position:100% 19%}
+//  100%{background-position:0% 82%}
+//}
+//@-moz-keyframes rainbow {
+//  0%{background-position:0% 82%}
+//  50%{background-position:100% 19%}
+//  100%{background-position:0% 82%}
+//}
+//@-o-keyframes rainbow {
+//  0%{background-position:0% 82%}
+//  50%{background-position:100% 19%}
+//  100%{background-position:0% 82%}
+//}
+//@keyframes rainbow {
+//  0%{background-position:0% 82%}
+//  50%{background-position:100% 19%}
+//  100%{background-position:0% 82%}
+//}
+
+
+
